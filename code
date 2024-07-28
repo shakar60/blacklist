@@ -1,0 +1,7 @@
+local blacklist = {"Username1", "Username2", "Username3"}
+
+for _, player in pairs(game.Players:GetPlayers()) do
+if table.find(blacklist, player.Name) then
+player:Kick("You are blacklisted from USH!")
+end
+end
