@@ -1,4 +1,4 @@
-local blacklist = {"Username1", "Username2", "Username3"}
+local blacklist = {"nuba_gar", "Username2", "Username3"}
 
 for _, player in pairs(game.Players:GetPlayers()) do
 if table.find(blacklist, player.Name) then
