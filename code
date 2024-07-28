@@ -1,4 +1,4 @@
-local blacklist = {"shakar60", "Username2", "Username3"}
+local blacklist = {"nuba_gar", "Username2", "Username3"}
 
 -- Function to check if a player is blacklisted
 local function isBlacklisted(player)
